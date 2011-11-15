@@ -3,6 +3,7 @@ use warnings;
 use strict;
 BEGIN {
     $ENV{CATALYST_SCRIPT_GEN} = 40;
+    no critic (Variables::RequireLocalizedPunctuationVars, ValuesAndExpressions::ProhibitMagicNumbers);
 }
 
 use Catalyst::ScriptRunner;
